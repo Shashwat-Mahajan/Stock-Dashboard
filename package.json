@@ -1,12 +1,11 @@
 {
   "name": "my-next-app",
   "version": "0.1.0",
-  "homepage": "https://shashwat-mahajan.github.io/Stock-Dashboard",
+  "homepage": "https://shashwat-mahajan.github.io/Sgit tock-Dashboard",
   "private": true,
   "scripts": {
     "dev": "next dev",
   "build": "next build",
-  "export": "next export",
   "deploy": "next build && gh-pages -d out",
     "start": "next start",
     "lint": "next lint"

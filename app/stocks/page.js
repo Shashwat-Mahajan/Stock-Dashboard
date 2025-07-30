@@ -35,7 +35,7 @@ export default function StocksPage() {
   useEffect(() => {
     setMounted(true);
 
-    fetch("/dump.csv")
+    fetch("/Stock-Dashboard/dump.csv")
       .then((response) => response.text())
       .then((text) => {
         Papa.parse(text, {
