@@ -1,10 +1,8 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+export default {
   output: "export",
-  basePath: "/Stock-Dashboard", // replace with your GitHub repo name
+  basePath: "/Stock-Dashboard",
+  assetPrefix: "/Stock-Dashboard/",
   images: {
     unoptimized: true,
   },
 };
-
-module.exports = nextConfig;
